@@ -92,7 +92,7 @@ export default function Home() {
                 <div className="space-y-8">
                     <div className="space-y-2">
                         <span className="text-[10px] font-mono text-cyan-400 tracking-[0.3em] uppercase font-black">
-                            // OUR MISSION
+                            OUR MISSION
                         </span>
                         <h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.95] text-white">
                             Building the <br /> Backbone of <br /> <span className="text-zinc-500">Mobility.</span>
@@ -142,8 +142,8 @@ export default function Home() {
             {/* CORE DISCIPLINES - HORIZONTAL SCROLL CARDS */}
             <section className="py-24 bg-[#050505] overflow-hidden">
                 <div className="max-w-[1400px] mx-auto px-4 md:px-12 mb-12 text-center space-y-2">
-                    <h2 className="text-3xl font-black tracking-tight">Core Manufacturers</h2>
-                    <p className="text-xs font-mono text-zinc-500 uppercase tracking-widest">Specialized engineering across critical mobility sectors.</p>
+                    <h2 className="text-3xl font-black tracking-tight">Cars Brands</h2>
+                    <p className="text-xs font-mono text-zinc-500 uppercase tracking-widest">Check out our collection of cars brands.</p>
                 </div>
 
                 <div className="w-full overflow-x-auto pb-8 hide-scrollbar cursor-grab active:cursor-grabbing pl-4 md:pl-12">

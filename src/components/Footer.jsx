@@ -44,10 +44,10 @@ export default function Footer() {
                         <div className="space-y-4">
                             <h4 className="text-[10px] font-mono font-bold uppercase tracking-widest text-zinc-500">NAVIGATION</h4>
                             <ul className="space-y-3 text-sm font-bold text-white">
-                                <li><Link to="/" className="hover:text-cyan-400 transition-colors">Terminal Index</Link></li>
-                                <li><Link to="/showroom" className="hover:text-cyan-400 transition-colors">Fleet Showroom</Link></li>
-                                <li><Link to="/booking" className="hover:text-cyan-400 transition-colors">Resource Request</Link></li>
-                                <li><Link to="/reviews" className="hover:text-cyan-400 transition-colors">Operator Logs</Link></li>
+                                <li><Link to="/" className="hover:text-cyan-400 transition-colors">Home</Link></li>
+                                <li><Link to="/showroom" className="hover:text-cyan-400 transition-colors">Showroom</Link></li>
+                                <li><Link to="/booking" className="hover:text-cyan-400 transition-colors">Booking</Link></li>
+                                <li><Link to="/reviews" className="hover:text-cyan-400 transition-colors">Reviews</Link></li>
                             </ul>
                         </div>
 
@@ -55,7 +55,7 @@ export default function Footer() {
                         <div className="space-y-4">
                             <h4 className="text-[10px] font-mono font-bold uppercase tracking-widest text-zinc-500">CLEARANCE</h4>
                             <ul className="space-y-3 text-sm font-bold text-white">
-                                <li><Link to="/admin" className="hover:text-cyan-400 transition-colors">Owner Control Panel</Link></li>
+                                <li><Link to="/admin" className="hover:text-cyan-400 transition-colors">Admin</Link></li>
                                 <li className="text-zinc-600 cursor-not-allowed">Biometric Auth</li>
                                 <li className="text-zinc-600 cursor-not-allowed">Liability Locks</li>
                                 <li className="text-zinc-600 cursor-not-allowed">Node Hash Registry</li>
@@ -90,7 +90,7 @@ export default function Footer() {
                     <div className="flex items-center gap-4 text-[10px] font-mono text-zinc-500">
                         <div className="flex items-center gap-2">
                             <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
-                            <span>VELOCE NODE // <span className="text-white">{systemPing}MS</span></span>
+                            <span>VELOCE NODE <span className="text-white">{systemPing}MS</span></span>
                         </div>
                         <span className="hidden md:inline">ENCRYPTION: <span className="text-cyan-400">AES-GCM-256</span></span>
                     </div>
@@ -101,9 +101,8 @@ export default function Footer() {
 
                     <div className="flex gap-4 uppercase font-mono text-[9px] text-zinc-500">
                         <span className="hover:text-white cursor-pointer transition-colors">PRIVACY</span>
-                        <span>//</span>
+
                         <span className="hover:text-white cursor-pointer transition-colors">TERMS</span>
-                        <span>//</span>
                         <span className="text-cyan-400">V1.4.2-STABLE</span>
                     </div>
                 </div>

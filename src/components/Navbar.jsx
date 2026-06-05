@@ -79,7 +79,7 @@ export default function Navbar() {
 
     const links = [
         { name: 'HOME', path: '/' },
-        { name: 'FLEET', path: '/showroom' },
+        { name: 'Cars', path: '/showroom' },
         { name: 'BOOKING', path: '/booking' },
         { name: 'REVIEWS', path: '/reviews' },
     ];
@@ -96,7 +96,7 @@ export default function Navbar() {
                     </Link>
                     {currentUser && !isCapsule && (
                         <span className="text-[9px] font-mono text-zinc-500 tracking-widest mt-1 lowercase block transition-opacity duration-300">
-                            terminal // <span className="text-cyan-400 font-bold uppercase">{currentUser.username}</span>
+                            <span className="text-cyan-400 font-bold uppercase">{currentUser.username}</span>
                         </span>
                     )}
                 </div>

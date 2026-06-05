@@ -73,7 +73,7 @@ export default function Booking() {
             <div className="max-w-4xl mx-auto space-y-12">
                 <header className="text-center">
                     <span className="text-[10px] font-mono text-cyan-400 tracking-[0.3em] uppercase">Secure Operational Entry</span>
-                    <h1 className="text-4xl font-black mt-2 tracking-tighter">RESOURCE DISPATCH</h1>
+                    <h1 className="text-4xl font-black mt-2 tracking-tighter">Rental Car Request</h1>
                 </header>
 
                 <form onSubmit={handleSubmit} className="bg-[#0a0a0c] border border-white/5 rounded-3xl p-8 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-8">

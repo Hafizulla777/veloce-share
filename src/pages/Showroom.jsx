@@ -48,9 +48,9 @@ export default function Showroom() {
             {/* Header Area */}
             <div className="mb-8">
                 <span className="text-[10px] font-mono text-cyan-400 tracking-[0.3em] uppercase block font-black mb-1">
-                    // SYSTEM QUANTIZATION DIRECTORY
+                    Cars Available
                 </span>
-                <h2 className="text-4xl font-black tracking-tighter uppercase">THE FLEET MATRIX GRID</h2>
+                <h2 className="text-4xl font-black tracking-tighter uppercase">Search by car brand and model</h2>
             </div>
 
             {/* 🔍 PRODUCTION STICKY SEARCH CONSOLE */}
